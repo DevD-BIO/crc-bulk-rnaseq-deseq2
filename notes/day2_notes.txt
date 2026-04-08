@@ -1,0 +1,13 @@
+Day 2 goals:
+1. Create project repo
+2. Download dataset files
+3. Create metadata sheet
+4. Keep everything organized
+
+Project dataset:
+GSE142279
+Dataset accession: GSE142279
+Source: NCBI GEO
+Dataset title: 	RNA-seq data of 20 pairs of colorectal tumor with matched adjacent normal colorectal tissue
+Main comparison:
+Tumor vs matched normal colorectal tissue
