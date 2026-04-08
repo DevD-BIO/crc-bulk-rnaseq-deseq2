@@ -1,0 +1,24 @@
+1+1
+setwd("~/Desktop/Bioinformatics_Career/02_Projects/crc-bulk-rnaseq-deseq2")
+install.packages("languageserver")
+setwd("~/Desktop/Bioinformatics_Career/02_Projects/crc-bulk-rnaseq-deseq2")
+getwd()
+install.packages("BiocManager")
+BiocManager::install("DESeq2")
+library(DESeq2)
+source("scripts/03_prepare_deseq2_inputs.R")
+source("scripts/04_create_deseq_dataset.R")
+source("scripts/04_create_deseq_dataset.R")
+source("scripts/04_create_deseq_dataset.R")
+source("scripts/04_create_deseq_dataset.R")
+sample_info <- read.csv("data_processed/deseq2_sample_info.csv", stringsAsFactors = FALSE)#
+#
+colnames(sample_info)#
+table(sample_info$condition, useNA = "ifany")#
+sample_info[is.na(sample_info$condition) | sample_info$condition == "", ]
+sample_info <- read.csv("data_processed/deseq2_sample_info.csv", stringsAsFactors = FALSE)#
+#
+colnames(sample_info)#
+table(sample_info$condition, useNA = "ifany")#
+sample_info[is.na(sample_info$condition) | sample_info$condition == "", ]
+source("scripts/04_create_deseq_dataset.R")
