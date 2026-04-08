@@ -1,0 +1,11 @@
+Day 3 progress:
+- Opened raw counts file
+- Confirmed count columns use GSM accession IDs
+- Fixed metadata to include gsm_id
+- Saved metadata as Excel and CSV
+- Created 01_load_and_check_data.R
+- Loaded counts, annotation, and metadata into R
+- Checked all GSM IDs against counts columns
+- Saved sample ID match results
+- Created 02_save_clean_counts.R
+- Saved raw counts copy into data_processed
