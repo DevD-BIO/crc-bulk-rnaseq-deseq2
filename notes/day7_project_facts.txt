@@ -1,0 +1,35 @@
+Title:
+Matched Tumor-vs-Normal Differential Expression in Colorectal Cancer Using DESeq2
+
+Dataset:
+GSE142279
+
+Samples:
+40 total samples
+20 matched tumor-normal pairs
+
+Organism:
+Homo sapiens
+
+Genes retained after filtering:
+31,516
+
+Significant genes (padj < 0.05):
+13,043
+
+Main outputs:
+- Full DESeq2 results table
+- Significant genes table
+- Top 20 genes file
+- Volcano plot
+- Top 30 heatmap
+
+Skills shown:
+- R
+- DESeq2
+- RNA-seq data analysis
+- metadata cleaning
+- paired experimental design
+- gene annotation
+- bioinformatics visualization
+- GitHub project organization

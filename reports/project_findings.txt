@@ -1,0 +1,15 @@
+Project Findings
+
+1. The colorectal tumor and matched normal samples showed strong differential gene expression overall.
+
+2. After filtering low-count genes, 31,516 genes were retained for analysis.
+
+3. DESeq2 identified 13,043 genes with adjusted p-value less than 0.05.
+
+4. The volcano plot showed many genes with both strong fold-change and strong statistical significance.
+
+5. The heatmap of the top 30 genes showed clear clustering by condition, with normal and tumor samples separating into distinct expression patterns.
+
+6. Several top genes were strongly upregulated in tumor samples, while others were strongly downregulated relative to normal tissue.
+
+7. The project demonstrates that the dataset contains biologically meaningful signal and is suitable for bioinformatics analysis and visualization.
