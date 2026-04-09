@@ -20,4 +20,4 @@ dds <- dds[rowSums(counts(dds)) >= 10, ]
 
 saveRDS(dds, file = "data_processed/dds_object.rds")
 
-print(dim(dds))
+print(dim(dds))       
