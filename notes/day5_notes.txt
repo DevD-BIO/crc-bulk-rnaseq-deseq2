@@ -1,0 +1,6 @@
+Day 5 progress:
+- Ran DESeq2 on paired colorectal tumor vs normal dataset
+- Saved fitted DESeq2 object
+- Generated full differential expression results table
+- Saved significant genes with padj < 0.05
+- Saved top 20 genes ranked by adjusted p-value
